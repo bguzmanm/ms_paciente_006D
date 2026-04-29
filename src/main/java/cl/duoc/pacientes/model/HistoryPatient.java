@@ -26,6 +26,7 @@ public class HistoryPatient {
     private Patient patient;
 
     String address;
-    String phone;    @Column(name="blood_type")
+    String phone;
+    @Column(name="blood_type")
     String bloodType;
 }
